@@ -1,0 +1,21 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  height: 5rem;
+}
+
+.header-buttons {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #FFFFFF;
+  transition: .5s;
+  padding: .7rem 2rem;
+  background: var(--blue-dark-color);
+}
+
+.header-buttons:hover {
+  background: var(--blue-light-color);
+}
