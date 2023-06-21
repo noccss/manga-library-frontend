@@ -7,12 +7,12 @@ function App() {
   return (
     <>
       <Header />
+      <hr />
       <Router>
         <Routes>
           <Route index element={<Home />} />
         </Routes>
       </Router>
-      <hr />
     </>
   )
 }
