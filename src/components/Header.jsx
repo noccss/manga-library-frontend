@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export default function Header({}) {
   return (
     <header className="header-main">
-      <a href="#" className="header-icon">Manga Library</a>
+      <Link to="/" className="header-icon">Manga Library</Link>
       <nav className="header-items">
-        <a href="#" className="header-buttons">Entrar</a>
+        <Link to="/user" className="header-buttons">Entrar</Link>
       </nav>
     </header>
   );
